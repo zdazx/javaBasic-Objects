@@ -145,7 +145,7 @@ class ObjectTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final String expected = null;
+        final String expected = "Untitled";
         // --end-->
 
         assertEquals(expected, instance.getName());
@@ -160,7 +160,8 @@ class ObjectTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final String[] expected = {};
+        final String[] expected = new String[]{"Field Initializer", "Initialization Block", "Constructor with argument",
+        "Default constructor"};
         // --end-->
 
         assertArrayEquals(expected, logs);
